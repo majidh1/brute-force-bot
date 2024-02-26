@@ -61,13 +61,14 @@ sendRequest = () => {
                     }else return;
                 }
             }
+            index++;
             sendRequest();
         })
         .catch(function (error) {
             throw error
         })
         .finally(function () {
-            index++;
+            
         });
 }
 
