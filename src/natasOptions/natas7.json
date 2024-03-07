@@ -1,0 +1,6 @@
+{
+    "findedByRegexInContent":"[a-zA-Z0-9]{32}\\s",
+    "queryParams":{
+        "page": "/etc/natas_webpass/natas8"
+    }
+}

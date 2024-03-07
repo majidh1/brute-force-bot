@@ -1,0 +1,4 @@
+{
+    "referer":"http://natas5.natas.labs.overthewire.org/",
+    "findedByRegexInContent":"\\s[a-zA-Z0-9]{32}"
+}

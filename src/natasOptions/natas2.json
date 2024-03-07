@@ -1,0 +1,4 @@
+{
+    "url": "http://natas2.natas.labs.overthewire.org/files/users.txt",
+    "findedByRegexInContent":"[a-zA-Z0-9]{32}"
+}

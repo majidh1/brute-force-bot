@@ -1,0 +1,4 @@
+{
+    "cookieStr":"loggedin=1",
+    "findedByRegexInContent":"\\s[a-zA-Z0-9]{32}"
+}

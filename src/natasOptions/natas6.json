@@ -1,0 +1,13 @@
+{
+    "errorLog":"check this url => /includes/secret.inc \n submit secret code \n start 6 {$secret}",
+    "requiredFromCommand":"listedChar",
+    "listedCharSeparator":";",
+    "findedByRegexInContent":"\\s[a-zA-Z0-9]{32}",
+    "method":"POST",
+    "isFormData": true,
+    "body":{
+        "secret": "",
+        "submit":"1"
+    },
+    "searchParams": ["secret"]
+}
