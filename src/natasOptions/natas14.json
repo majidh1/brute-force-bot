@@ -1,0 +1,10 @@
+{
+    "hint":"SQL Injection",
+    "findedByRegexInContent":"natas15 is [a-zA-Z0-9]{32}",
+    "method":"POST",
+    "isFormData": true,
+    "body":{
+        "username": "natas15\" or password != \"",
+        "password":"1"
+    }
+}

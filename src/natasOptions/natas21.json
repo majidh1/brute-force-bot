@@ -1,0 +1,13 @@
+{
+    "hint":"use dynamic session data bug",
+    "findedByRegexInContent":"Password: [a-zA-Z0-9]{32}",
+    "method":"post",
+    "isFormData": true,
+    "body": {
+        "fontsize":"100%",
+        "align": "center",
+        "submit": "Update",
+        "admin": "1"
+    },
+    "resendResponseCookie": true
+}

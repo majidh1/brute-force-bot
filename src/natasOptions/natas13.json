@@ -1,6 +1,6 @@
 {
     "hint":"send php file",
-    "findedByRegexInContent":"pass: [a-zA-Z0-9]{32}",
+    "findedByRegexInContent":"\\s[a-zA-Z0-9]{32}",
     "method":"POST",
     "isFormData": true,
     "body":{

