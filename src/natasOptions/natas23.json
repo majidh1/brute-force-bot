@@ -1,0 +1,7 @@
+{
+    "hint":"read source",
+    "findedByRegexInContent":"Password: [a-zA-Z0-9]{32}",
+    "queryParams": {
+        "passwd":"12iloveyou"
+    }
+}

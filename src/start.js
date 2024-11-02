@@ -104,6 +104,10 @@ exports.start = (options) => {
             data: body,
             params: options.queryParams,
             maxBodyLength: Infinity,
+            maxRedirects: options.maxRedirects,
+            validateStatus(status) {
+                return status >= 200 && status < 400;
+            },
             auth: {
                 username: options.authUsername,
                 password: options.authPassword
@@ -152,13 +156,13 @@ exports.start = (options) => {
                 }else{
                     finished = true;
                 }
-                console.log("finded: ", foundedPass);
+                console.log("finded: ", foundedPass.toString().trim());
             }else{
                 index++;
             }
             if (index >= options.maxCount) {
                 if(foundedPass) {
-                    console.log("finded: ", foundedPass);
+                    console.log("finded: ", foundedPass.toString().trim());
                 }else{
                     throw "Count_Over"
                 }

@@ -1,0 +1,7 @@
+{
+    "hint":"strcmp in array passwd :-)",
+    "findedByRegexInContent":"Password: [a-zA-Z0-9]{32}",
+    "queryParams": {
+        "passwd[]":""
+    }
+}

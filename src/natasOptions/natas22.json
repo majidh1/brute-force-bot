@@ -1,0 +1,8 @@
+{
+    "hint":"use redirect bug 4 prevent redirect",
+    "findedByRegexInContent":"Password: [a-zA-Z0-9]{32}",
+    "maxRedirects":0,
+    "queryParams": {
+        "revelio":"true"
+    }
+}
